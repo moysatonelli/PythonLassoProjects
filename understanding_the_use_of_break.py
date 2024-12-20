@@ -10,7 +10,5 @@ livros = ["1984", "Dom Casmurro", "O Pequeno Príncipe", "O Hobbit", "Orgulho e 
 
 for i in livros:
     if i == "O Hobbit":
-        print("\nLivro encontrado: O Hobbit")
+        print(f"\nLivro encontrado: {i}")
         break
-    else:
-        print(i)
