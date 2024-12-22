@@ -20,4 +20,4 @@ while True:
             print("O usuário deve conter pelo menos 5 caracteres")
         if len(password) < 8:
             print("A senha deve conter pelo menos 8 caracteres")
-print("\nCadastro realizado com sucesso!")
+print(f"\nOlá {username}!\nSeu cadastro foi realizado com sucesso!")
